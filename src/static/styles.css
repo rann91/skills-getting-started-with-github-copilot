@@ -109,8 +109,9 @@ button:hover {
 }
 
 .message {
-  margin-top: 20px;
-  padding: 10px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  padding: 15px;
   border-radius: 4px;
 }
 
@@ -118,6 +119,8 @@ button:hover {
   background-color: #e8f5e9;
   color: #2e7d32;
   border: 1px solid #a5d6a7;
+  padding: 20px;
+  margin: 30px 0;
 }
 
 .error {
@@ -149,14 +152,32 @@ footer {
   border-top: 1px solid #e0e0e0;
 }
 
+
 .participants-list {
   margin: 8px 0 0 0;
-  padding-left: 24px;
-  list-style-type: disc;
+  padding-left: 0;
+  list-style-type: none;
 }
 
 .participants-list li {
   margin: 4px 0;
   color: #555;
   line-height: 1.4;
+  display: flex;
+  align-items: center;
+}
+
+.delete-participant {
+  background: none;
+  border: none;
+  color: #c62828;
+  font-size: 1.1em;
+  margin-left: 8px;
+  cursor: pointer;
+  padding: 2px 6px;
+  border-radius: 50%;
+  transition: background 0.2s;
+}
+.delete-participant:hover {
+  background: #ffeaea;
 }
